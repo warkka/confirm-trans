@@ -2,8 +2,8 @@ import React from 'react';
 
 export const TransactionInfo = () => {
   return (
-    <div className="flex w-full flex-col items-stretch font-medium mt-4">
-      <h3 className="self-stretch flex-1 shrink w-full gap-2.5 text-xl text-[rgba(28,28,28,1)] whitespace-nowrap px-5">
+    <div className="flex w-full flex-col items-stretch font-medium mt-4 px-5">
+      <h3 className="self-stretch flex-1 shrink w-full gap-2.5 text-xl text-[rgba(28,28,28,1)] whitespace-nowrap">
         Information
       </h3>
       <div className="self-center flex w-[353px] max-w-full flex-col items-stretch text-lg text-[rgba(143,143,143,1)] justify-center mt-2">
