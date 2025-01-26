@@ -8,9 +8,9 @@ export const SendContainer = () => {
   return (
     <div className="bg-[rgba(245,245,247,1)] flex max-w-[393px] flex-col overflow-hidden items-stretch pt-5 pb-9 rounded-[24px_24px_0px_0px]">
       <div className="flex w-full flex-col items-stretch">
-        <header className="self-center flex w-[353px] max-w-full items-center gap-[40px_100px] text-xl text-[rgba(28,28,28,1)] font-semibold whitespace-nowrap justify-between">
-          <div className="self-stretch flex w-8 shrink-0 h-8 my-auto" aria-label="Close" role="button" />
-          <h1 className="self-stretch my-auto">Send</h1>
+        <header className="self-center flex w-[353px] max-w-full items-center text-xl text-[rgba(28,28,28,1)] font-semibold whitespace-nowrap relative">
+          <div className="absolute left-0 flex w-8 shrink-0 h-8 my-auto" aria-label="Close" role="button" />
+          <h1 className="w-full text-center">Send</h1>
         </header>
 
         <section className="self-center min-h-[52px] w-[353px] max-w-full mt-4">
