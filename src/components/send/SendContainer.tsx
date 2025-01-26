@@ -22,7 +22,7 @@ export const SendContainer = () => {
           </p>
         </section>
 
-        <div className="bg-white flex w-full items-center text-4xl font-medium whitespace-nowrap justify-between mt-4 p-5 rounded-[36px]">
+        <div className="bg-white flex w-full items-center text-4xl font-medium whitespace-nowrap justify-between mt-4 px-5 py-5 rounded-[36px]">
           <div className="text-[rgba(28,28,28,1)] self-stretch flex-1 shrink basis-[0%] my-auto">
             $100.00
           </div>
